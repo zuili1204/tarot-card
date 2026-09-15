@@ -1,0 +1,49 @@
+/* 视觉 token（04 §6）：暗色金箔 + 克制排版 */
+:root {
+  /* 底色 */
+  --bg: #0d0b14;
+  --panel: #1a1626;
+  --panel-2: #221d31;
+  --line: rgba(212, 175, 55, 0.22);
+
+  /* 金色系 */
+  --gold: #d4af37;
+  --gold-bright: #f0d98c;
+  --gold-dim: rgba(212, 175, 55, 0.55);
+
+  /* 文字 */
+  --text: #e8e3d5;
+  --text-2: #9b93a8;
+  --text-3: #6f6880;
+
+  /* 正逆位标记 */
+  --accent-up: #c9a227;
+  --accent-rev: #8b7bb8;
+
+  /* 元素色（花色徽记） */
+  --el-fire: #c0392b;
+  --el-water: #2980b9;
+  --el-air: #b9a64c;
+  --el-earth: #27ae60;
+
+  /* 尺寸 */
+  --radius: 14px;
+  --radius-s: 8px;
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+
+  /* 动效 token（08 §三）：时长四档 + 缓动三系。
+     节拍约定：fast=反馈 / base=常规 / slow=仪式链节拍 / ritual=每屏最多一次的隆重时刻 */
+  --dur-fast: 180ms;
+  --dur-base: 300ms;
+  --dur-slow: 520ms;
+  --dur-ritual: 900ms;
+  /* 翻牌禁用回弹过冲（>180° 会闪 backface 背面镜像），弹性只用于位移/缩放 */
+  --ease-out: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-flip: cubic-bezier(0.45, 0.05, 0.25, 1);
+
+  /* 字体栈（04 §6）：标题衬线、正文无衬线。webfont 在 main.ts 经 fontsource 分片加载 */
+  --font-serif: 'Noto Serif SC', 'Songti SC', 'STSong', 'SimSun', serif;
+  --font-sans: 'Noto Sans SC', system-ui, -apple-system, 'PingFang SC', 'HarmonyOS Sans SC', 'MiSans', 'Microsoft YaHei', sans-serif;
+}

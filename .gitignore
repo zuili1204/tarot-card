@@ -1,0 +1,51 @@
+# ---------- Node ----------
+node_modules/
+.npmrc
+npm-cache/
+.yarn/
+.pnpm-store/
+
+# ---------- 构建产物 ----------
+dist/
+*.tsbuildinfo
+
+# ---------- 不随仓库发布（内部资料 / 第三方素材） ----------
+docs/
+taluo-cards/
+
+# ---------- 测试与临时产物 ----------
+**/tests/tmp/
+coverage/
+test-out.txt
+*.log
+
+# ---------- Android（另见 tarot-web/android/.gitignore） ----------
+tarot-web/android/.gradle/
+tarot-web/android/build/
+tarot-web/android/app/build/
+tarot-web/android/app/release/
+tarot-web/android/capacitor-cordova-android-plugins/
+tarot-web/android/local.properties
+tarot-web/android/keystore.properties
+*.apk
+*.aab
+*.jks
+*.keystore
+*.dex
+build-*.txt
+build-log.txt
+
+# 例外：release/ 目录下的成品安装包需要随仓库分发
+!release/*.apk
+
+# ---------- 编辑器 / 系统 ----------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- 本地环境变量 ----------
+.env
+.env.local
+.env.*.local

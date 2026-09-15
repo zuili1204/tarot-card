@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 启动图：深紫黑底 + 居中图标。
+     不引入新位图：此前直接放 1080x1080 原图（2.37MB）到 11 个启动图位置，
+     APK 从 9.59MB 涨到 34.85MB。改为复用 mipmap 图标，任意屏幕都居中且按密度取清晰版本。 -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/ic_launcher_background" />
+    <item
+        android:width="160dp"
+        android:height="160dp"
+        android:gravity="center">
+        <bitmap
+            android:src="@mipmap/ic_launcher_foreground"
+            android:gravity="center" />
+    </item>
+</layer-list>

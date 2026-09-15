@@ -1,0 +1,43 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    // 阿里云镜像前置：国内网络下 dl.google.com / repo1.maven.org 常超时（09 §4 / R8）
+    repositories {
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.13.0'
+        classpath 'com.google.gms:google-services:4.4.4'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+apply from: "variables.gradle"
+
+allprojects {
+    repositories {
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        google()
+        mavenCentral()
+    }
+}
+
+// 统一 build tools 版本：AGP 默认要求的 35.0.0 需联网下载，国内网络下常长时间无进展，
+// 这里固定用本地已安装的 36.0.0（如本机没有该版本，请改为已安装的 build-tools 版本）
+subprojects {
+    afterEvaluate { p ->
+        if (p.extensions.findByName('android') != null) {
+            p.android.buildToolsVersion = "36.0.0"
+        }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

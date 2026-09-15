@@ -1,0 +1,8 @@
+/* Android 构建占位：替代 @fontsource/noto-serif-sc/400.css
+   原因：全量中文 webfont 分片共 23.4MB（09 §1.2 / R1），进包不可接受。
+   代价：标题衬线在 Android 上无法保证（多数 ROM 无中文衬线，强指 serif 有豆腐块风险），
+        故临时对齐无衬线系统栈；M2 用子集化宋体（仅标题字符集）恢复调性。 */
+:root {
+  --font-serif: 'Noto Sans CJK SC', 'Noto Sans SC', system-ui, 'PingFang SC',
+    'HarmonyOS Sans SC', 'MiSans', 'Source Han Sans SC', sans-serif;
+}

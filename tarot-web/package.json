@@ -1,0 +1,46 @@
+{
+  "name": "tarot-web",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run content:sync && vue-tsc --noEmit && vite build",
+    "build:android": "npm run content:sync && vue-tsc --noEmit && vite build --mode android",
+    "cap:sync": "npm run build:android && npx cap sync android",
+    "preview": "vite preview",
+    "data:parse": "node scripts/parse-cards.mjs",
+    "data:check": "node scripts/check-cards.mjs",
+    "content:sync": "node scripts/sync-content.mjs",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.5.1",
+    "@capacitor/app": "^8.1.1",
+    "@capacitor/cli": "^8.5.1",
+    "@capacitor/core": "^8.5.1",
+    "@capacitor/device": "^8.0.3",
+    "@capacitor/filesystem": "^8.1.3",
+    "@capacitor/haptics": "^8.0.2",
+    "@capacitor/local-notifications": "^8.3.1",
+    "@capacitor/preferences": "^8.0.1",
+    "@capacitor/share": "^8.0.1",
+    "@capacitor/splash-screen": "^8.0.2",
+    "@fontsource/noto-sans-sc": "^5.3.0",
+    "@fontsource/noto-serif-sc": "^5.3.0",
+    "pinia": "^2.1.7",
+    "qrcode": "^1.5.4",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "@types/qrcode": "^1.5.6",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "typescript": "~5.4.5",
+    "vite": "^5.2.8",
+    "vitest": "^1.6.1",
+    "vue-tsc": "^2.0.19"
+  }
+}

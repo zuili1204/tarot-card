@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 鑷€傚簲鍥炬爣鑳屾櫙灞傦細鐢?scripts/build-android-icons.ps1 浠?icon-source.png 鍥涜鍙栨牱鍐欏叆 -->
+    <color name="ic_launcher_background">#193B56</color>
+</resources>

@@ -1,0 +1,113 @@
+/* 动效基建（04 §5 性能纪律：动画只走 transform/opacity；reduced-motion 由 base.css 全局降级为直切）
+   工具类用 --d 控制入场延迟，可实现级联 */
+
+/* 路由切换：淡入上移（out-in），时长/曲线走 motion token（08 §三） */
+.route-enter-active,
+.route-leave-active {
+  transition:
+    opacity var(--dur-fast) var(--ease-out),
+    transform var(--dur-fast) var(--ease-out);
+}
+.route-enter-from {
+  opacity: 0;
+  transform: translateY(0.04rem);
+}
+.route-leave-to {
+  opacity: 0;
+  transform: translateY(-0.02rem);
+}
+
+/* 通用关键帧 */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(0.05rem);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes popIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.86);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1.04);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@keyframes floatBob {
+  from {
+    transform: translateY(-0.012rem);
+  }
+  to {
+    transform: translateY(0.012rem);
+  }
+}
+@keyframes flashIn {
+  0% {
+    opacity: 0;
+  }
+  35% {
+    opacity: 0.85;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes shimmerText {
+  0%,
+  55% {
+    background-position: 0% 50%; /* 高光悬在字外：大半周期安静 */
+  }
+  90% {
+    background-position: 100% 50%; /* 35% 时长内缓缓漫过一次 */
+  }
+  100% {
+    background-position: 100% 50%; /* 离场后停一拍再归位 */
+  }
+}
+
+/* 工具类 */
+.a-fade-up {
+  animation: fadeUp 0.4s var(--ease-out) both;
+  animation-delay: var(--d, 0s);
+}
+.a-pop {
+  animation: popIn var(--dur-slow) var(--ease-spring) both;
+  animation-delay: var(--d, 0s);
+}
+.a-float {
+  animation: floatBob 3.2s ease-in-out infinite alternate;
+}
+
+/* 金字微光：单高光窄带，13s"停—扫—停"（大半周期安静，光每 13s 缓缓漫过一次；品牌名等点缀位专用，勿大面积用） */
+.a-shimmer-text {
+  background: linear-gradient(
+    105deg,
+    var(--gold) 0%,
+    var(--gold-bright) 40%,
+    #fff8dc 50%,
+    var(--gold-bright) 60%,
+    var(--gold) 100%
+  );
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: shimmerText 13s ease-in-out infinite;
+}
+
+/* 按压反馈（排除自带 transform 交互的扇形/牌摞/牌堆） */
+button:not(.fan-slot):not(.pile) {
+  transition: transform var(--dur-fast) ease;
+}
+button:not(.fan-slot):not(.pile):active {
+  transform: scale(0.96);
+}

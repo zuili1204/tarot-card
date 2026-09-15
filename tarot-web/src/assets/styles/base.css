@@ -1,0 +1,116 @@
+/* 基础 reset 与全局排版（390×844 竖屏基准，rem+vw 混合，04 §1） */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: calc(100vw / 3.9); /* 1rem = 100px @390 宽 */
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: 0.14rem;
+  line-height: 1.75;
+  min-height: 100vh;
+  min-height: 100dvh;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 桌面兜底（04 §1）：居中 420px 容器——rem 随容器同步封顶（420/3.9），
+   保证桌面与手机 1:1 渲染不破版；外圈压暗 + 侧发丝线，让居中列成为有意的"舞台" */
+#app {
+  max-width: 420px;
+  margin: 0 auto;
+  min-height: 100dvh;
+  /* L1 底色光晕（08 §五）：顶部微紫 + 底部收拢深色，替代纯色黑板 */
+  background:
+    radial-gradient(120% 46% at 50% -8%, rgba(96, 76, 150, 0.11), transparent 62%),
+    radial-gradient(130% 50% at 50% 112%, rgba(5, 4, 10, 0.85), transparent 58%),
+    var(--bg);
+  position: relative;
+}
+
+@media (min-width: 421px) {
+  html {
+    font-size: 107.69px; /* 420 / 3.9 */
+  }
+  body {
+    background: #07060c;
+  }
+  #app {
+    box-shadow:
+      0 0 0 1px rgba(212, 175, 55, 0.1),
+      0 0 80px rgba(0, 0, 0, 0.65);
+  }
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  color: var(--gold-bright);
+  line-height: 1.4;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  border: none;
+  background: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+input {
+  font-family: inherit;
+  outline: none;
+}
+
+::selection {
+  background: rgba(212, 175, 55, 0.3);
+}
+
+/* 页面通用容器 */
+.page {
+  padding: 0.2rem 0.2rem calc(0.3rem + var(--safe-bottom));
+}
+
+/* 弱化系统滚动条 */
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+/* 通用过渡：只动 transform/opacity（04 §5 性能纪律） */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.2s ease;
+}
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+/* 低端机降级（M2）：缩短仪式链时长，帧率优先于氛围。
+   只改 token 与各组件内的动画开关，不砍功能、不破版。 */
+body.low-end {
+  --dur-slow: 320ms;
+  --dur-ritual: 520ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

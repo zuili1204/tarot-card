@@ -1,0 +1,188 @@
+{
+  "version": "1.1.0",
+  "updatedAt": "2026-09-04",
+  "spreads": [
+    {
+      "id": "daily-single",
+      "nameZh": "每日一抽",
+      "cardCount": 1,
+      "difficulty": "beginner",
+      "minutes": 1,
+      "domains": ["love", "career", "wealth", "study", "family", "social", "growth", "wellbeing", "place", "create", "general"],
+      "priority": "P0",
+      "description": "一张牌看今天：当天的心态、机会与提醒。零门槛，S1 场景专用。",
+      "positions": [
+        { "no": 1, "name": "今日主题", "meaning": "当天的心态、机会与提醒", "tpl": "today", "x": 2, "y": 1 }
+      ],
+      "links": []
+    },
+    {
+      "id": "yesno-single",
+      "nameZh": "是/否单抽",
+      "cardCount": 1,
+      "difficulty": "beginner",
+      "minutes": 1,
+      "domains": ["love", "career", "wealth", "study", "family", "social", "growth", "wellbeing", "place", "create", "general"],
+      "priority": "P1",
+      "description": "封闭式问题的轻量玩法：抽一张，看三档倾向（01 §3.5）。娱乐化入口，页面挂开放式提问引导。",
+      "entry": "yesno",
+      "positions": [
+        { "no": 1, "name": "答案", "meaning": "这张牌给出的倾向", "tpl": "yesno-answer", "x": 2, "y": 1 }
+      ],
+      "links": []
+    },
+    {
+      "id": "three-timeline",
+      "nameZh": "三张阵 · 时间线",
+      "cardCount": 3,
+      "difficulty": "beginner",
+      "minutes": 5,
+      "domains": ["love", "career", "wealth", "study", "family", "social", "growth", "wellbeing", "place", "create", "general"],
+      "priority": "P0",
+      "description": "过去、现在、未来的经典三牌，新手第一课。",
+      "positions": [
+        { "no": 1, "name": "过去", "meaning": "成因与来路", "tpl": "past", "x": 1, "y": 0 },
+        { "no": 2, "name": "现在", "meaning": "当前状态", "tpl": "present", "x": 2, "y": 0 },
+        { "no": 3, "name": "未来", "meaning": "按问题时效的走向", "tpl": "future", "x": 3, "y": 0 }
+      ],
+      "links": [
+        { "a": 1, "b": 2, "type": "cause" },
+        { "a": 2, "b": 3, "type": "trend" }
+      ],
+      "variants": ["three-situation", "three-choice"]
+    },
+    {
+      "id": "three-situation",
+      "nameZh": "三张阵 · 情境",
+      "cardCount": 3,
+      "difficulty": "beginner",
+      "minutes": 4,
+      "domains": ["love", "career", "wealth", "study", "family", "social", "growth", "wellbeing", "place", "create", "general"],
+      "priority": "P1",
+      "description": "现状 → 症结 → 出路。适合「事情卡住了，但说不清卡在哪」。",
+      "positions": [
+        { "no": 1, "name": "现状", "meaning": "此刻的真实处境", "tpl": "present", "x": 1, "y": 0 },
+        { "no": 2, "name": "症结", "meaning": "真正卡住的地方", "tpl": "crux", "x": 2, "y": 0 },
+        { "no": 3, "name": "出路", "meaning": "可以试着走的方向", "tpl": "wayout", "x": 3, "y": 0 }
+      ],
+      "links": [
+        { "a": 1, "b": 2, "type": "cause" },
+        { "a": 2, "b": 3, "type": "trend" }
+      ]
+    },
+    {
+      "id": "three-choice",
+      "nameZh": "三张阵 · 二选一",
+      "cardCount": 3,
+      "difficulty": "beginner",
+      "minutes": 4,
+      "domains": ["love", "career", "wealth", "study", "family", "social", "growth", "wellbeing", "place", "create", "general"],
+      "priority": "P1",
+      "description": "两条路各看一张，第三张给建议。适合「选 A 还是选 B」。",
+      "positions": [
+        { "no": 1, "name": "这条路", "meaning": "选 A 的走向", "tpl": "choice-a", "x": 1, "y": 0 },
+        { "no": 2, "name": "那条路", "meaning": "选 B 的走向", "tpl": "choice-b", "x": 2, "y": 0 },
+        { "no": 3, "name": "建议", "meaning": "选择时容易被忽略的一点", "tpl": "advice", "x": 3, "y": 0 }
+      ],
+      "links": [
+        { "a": 1, "b": 2, "type": "contrast" },
+        { "a": 2, "b": 3, "type": "trend" }
+      ]
+    },
+    {
+      "id": "situation-cross",
+      "nameZh": "情境十字",
+      "cardCount": 5,
+      "difficulty": "intermediate",
+      "minutes": 8,
+      "domains": ["love", "career", "wealth", "study", "family", "social", "growth", "wellbeing", "place", "create", "general"],
+      "priority": "P0",
+      "description": "现状居中，顺流逆流分列，根源在下、态度在上——进阶前的台阶。",
+      "positions": [
+        { "no": 1, "name": "现状核心", "meaning": "事情此刻的样子", "tpl": "situation", "x": 2, "y": 1 },
+        { "no": 2, "name": "顺流力量", "meaning": "帮助你的力量", "tpl": "ally", "x": 1, "y": 1 },
+        { "no": 3, "name": "逆流阻力", "meaning": "阻碍你的力量", "tpl": "obstacle", "x": 3, "y": 1 },
+        { "no": 4, "name": "根源", "meaning": "问题的根源", "tpl": "root", "x": 2, "y": 2 },
+        { "no": 5, "name": "建议", "meaning": "建议的态度与做法", "tpl": "advice", "x": 2, "y": 0 }
+      ],
+      "links": [
+        { "a": 2, "b": 3, "type": "contrast" },
+        { "a": 4, "b": 5, "type": "cause" }
+      ]
+    },
+    {
+      "id": "relationship-7",
+      "nameZh": "关系牌阵",
+      "cardCount": 7,
+      "difficulty": "intermediate",
+      "minutes": 12,
+      "domains": ["love", "family", "general"],
+      "priority": "P0",
+      "description": "你与对方各居一侧，现状、需求、外因与走向层层展开。核心感情场景的招牌牌阵（友情/合作可复用）。",
+      "positions": [
+        { "no": 1, "name": "你的状态", "meaning": "你在这段关系中的样子", "tpl": "self", "x": 1, "y": 0 },
+        { "no": 2, "name": "对方的状态", "meaning": "对方在这段关系中的样子", "tpl": "other", "x": 3, "y": 0 },
+        { "no": 3, "name": "关系现状", "meaning": "关系此刻的整体状态", "tpl": "relationNow", "x": 2, "y": 1 },
+        { "no": 4, "name": "你的深层需求", "meaning": "你真正想要的", "tpl": "selfNeed", "x": 1, "y": 2 },
+        { "no": 5, "name": "对方的深层需求", "meaning": "对方真正想要的", "tpl": "otherNeed", "x": 3, "y": 2 },
+        { "no": 6, "name": "外部影响", "meaning": "外部环境/第三方的影响", "tpl": "external", "x": 1, "y": 3 },
+        { "no": 7, "name": "关系走向", "meaning": "按时效的走向", "tpl": "outcome", "x": 3, "y": 3 }
+      ],
+      "links": [
+        { "a": 1, "b": 2, "type": "mirror" },
+        { "a": 4, "b": 5, "type": "contrast" },
+        { "a": 6, "b": 7, "type": "trend" }
+      ]
+    },
+    {
+      "id": "horseshoe-7",
+      "nameZh": "马蹄阵",
+      "cardCount": 7,
+      "difficulty": "intermediate",
+      "minutes": 12,
+      "domains": ["love", "career", "wealth", "study", "family", "social", "growth", "place", "general"],
+      "priority": "P1",
+      "description": "七张排成马蹄形，从过去到结果层层递进——事业/财运尤佳。",
+      "positions": [
+        { "no": 1, "name": "过去", "meaning": "成因与来路", "tpl": "past", "x": 2, "y": 0 },
+        { "no": 2, "name": "现在", "meaning": "当前状态", "tpl": "present", "x": 1, "y": 1 },
+        { "no": 3, "name": "隐性影响", "meaning": "潜意识/未显露的因素", "tpl": "hidden", "x": 3, "y": 1 },
+        { "no": 4, "name": "显性影响", "meaning": "环境/他人", "tpl": "visible", "x": 1, "y": 2 },
+        { "no": 5, "name": "对策", "meaning": "建议的行动方向", "tpl": "advice", "x": 3, "y": 2 },
+        { "no": 6, "name": "你的态度", "meaning": "你此刻的姿态", "tpl": "self", "x": 2, "y": 3 },
+        { "no": 7, "name": "结果", "meaning": "按时效的结果", "tpl": "outcome", "x": 2, "y": 4 }
+      ],
+      "links": [
+        { "a": 3, "b": 4, "type": "contrast" },
+        { "a": 5, "b": 7, "type": "cause" }
+      ]
+    },
+    {
+      "id": "celtic-cross-10",
+      "nameZh": "凯尔特十字",
+      "cardCount": 10,
+      "difficulty": "advanced",
+      "minutes": 15,
+      "domains": ["love", "career", "wealth", "study", "family", "social", "growth", "place", "general"],
+      "priority": "P1",
+      "description": "十字位讲事，权杖位讲人与命。十张信息量最大，深度模式招牌。",
+      "positions": [
+        { "no": 1, "name": "现状核心", "meaning": "事情的核心", "tpl": "situation", "x": 2, "y": 1 },
+        { "no": 2, "name": "交叉的阻碍", "meaning": "直接挑战/对立面（横放）", "tpl": "obstacle", "x": 2, "y": 2, "rotate": true },
+        { "no": 3, "name": "根源", "meaning": "潜意识动因", "tpl": "root", "x": 2, "y": 3 },
+        { "no": 4, "name": "过去", "meaning": "正在消退的影响", "tpl": "past", "x": 1, "y": 1 },
+        { "no": 5, "name": "冠冕", "meaning": "意识目标/理想", "tpl": "crown", "x": 3, "y": 0 },
+        { "no": 6, "name": "近未来", "meaning": "即将到来的事", "tpl": "future", "x": 4, "y": 1 },
+        { "no": 7, "name": "自我", "meaning": "你的姿态", "tpl": "self", "x": 1, "y": 4 },
+        { "no": 8, "name": "环境", "meaning": "他人/外境", "tpl": "external", "x": 2, "y": 4 },
+        { "no": 9, "name": "希望与恐惧", "meaning": "一体两面", "tpl": "hopeFear", "x": 3, "y": 4 },
+        { "no": 10, "name": "结局", "meaning": "按时效的总结局", "tpl": "outcome", "x": 4, "y": 4 }
+      ],
+      "links": [
+        { "a": 1, "b": 2, "type": "contrast" },
+        { "a": 4, "b": 6, "type": "trend" },
+        { "a": 9, "b": 10, "type": "trend" }
+      ]
+    }
+  ]
+}

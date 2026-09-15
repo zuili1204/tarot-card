@@ -1,0 +1,1257 @@
+{
+  "version": 1,
+  "note": "子情境层（10-占卜方向与场景拓展规划 §5.2）。只提供开场白 intro / 收束语 closing / 识别关键词 keywords / 推荐牌阵 spreadHint，牌义沿用父场景→域→核心的降级链，无牌义。",
+  "items": [
+    {
+      "id": "crush-longterm",
+      "parent": "crush",
+      "nameZh": "单向多年",
+      "keywords": ["单向付出", "多年暗恋", "暗恋很久", "一直喜欢", "没说出口"],
+      "intro": "喜欢一个人很久，却从没让对方知道——这段没有回音的付出，你打算怎么安放。",
+      "closing": "单向的心意也可以完整，牌面帮你看清：是把话放到台面上，还是先好好给到自己。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "crush-taken",
+      "parent": "crush",
+      "nameZh": "对方有伴",
+      "keywords": ["对方有对象", "已有伴侣", "名草有主", "喜欢的人恋爱了", "第三者"],
+      "intro": "心动的人身边已经有了别人，这份喜欢往哪放、要不要继续，都是你一个人的题。",
+      "closing": "在别人的关系之外心动不是错；牌面帮你分清：是真心想靠近，还是只是被『得不到』勾着。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "reco-nocontact",
+      "parent": "reconciliation",
+      "nameZh": "断联之后",
+      "keywords": ["断联", "冷处理", "不联系", "拉黑", "沉默期"],
+      "intro": "一段关系断在沉默里，你不确定这沉默是结束还是喘息。",
+      "closing": "断联不是答案，只是暂停；牌面照见的是你在这段关系里还想要的是什么。",
+      "spreadHint": "relationship-7"
+    },
+    {
+      "id": "reco-theynew",
+      "parent": "reconciliation",
+      "nameZh": "对方有新人",
+      "keywords": ["对方有新欢", "已有新的人", "移情别恋", "第三者", "横插一人"],
+      "intro": "听说或感觉到对方身边有了别人，复合这件事的棋盘一下子变了。",
+      "closing": "别人的新局你左右不了，牌面只照见你自己的位置与选择——把注意力拿回自己身上。",
+      "spreadHint": "relationship-7"
+    },
+    {
+      "id": "ld-abroad",
+      "parent": "long-distance",
+      "nameZh": "异国恋",
+      "keywords": ["异国", "时差", "签证", "跨国", "出差异地"],
+      "intro": "隔着的不只是距离，还有时区和一整个生活圈。",
+      "closing": "距离会筛选人，也会成全人——看清你们是哪一种。",
+      "spreadHint": "relationship-7"
+    },
+    {
+      "id": "ld-online",
+      "parent": "long-distance",
+      "nameZh": "网友未见",
+      "keywords": ["线上认识", "没见过面", "网恋", "奔现", "纯线上"],
+      "intro": "在屏幕里靠近、在现实里还没碰面——这份关系到底有几分真实，你还来不及验证。",
+      "closing": "没见面的心动也是真的，但落地的路要一步步走；牌面帮你分清想象与事实。",
+      "spreadHint": "relationship-7"
+    },
+    {
+      "id": "commit-family",
+      "parent": "commitment",
+      "nameZh": "见家长",
+      "keywords": ["见家长", "见父母", "双方家庭", "谈婚论嫁", "过家长关"],
+      "intro": "关系要走到两个家庭面前了，这一步不只是一顿饭，是两个世界的对接。",
+      "closing": "见家长是关系的试金石，不是判决书；牌面帮你看清双方在这件事上的期待差。",
+      "spreadHint": "relationship-7"
+    },
+    {
+      "id": "commit-money",
+      "parent": "commitment",
+      "nameZh": "彩礼阻力",
+      "keywords": ["彩礼", "嫁妆", "家庭阻力", "钱谈不拢", "婚俗"],
+      "intro": "谈到钱和习俗，两个人的事变成了两家人的事，卡住的常常不是感情。",
+      "closing": "钱与习俗是关系的照妖镜；牌面帮你们把『能不能谈』和『还愿不愿谈』分开。",
+      "spreadHint": "relationship-7"
+    },
+    {
+      "id": "commit-marry",
+      "parent": "commitment",
+      "nameZh": "要不要结婚",
+      "keywords": ["该结婚吗", "结婚时机", "要不要领证", "步入婚姻", "谈婚"],
+      "intro": "结婚这件事摆在面前，你是想清楚了的，还是被节奏推着走的？",
+      "closing": "婚姻没有标准答案，只有合不合你们；牌面帮你把外面的声音和自己的心意分开。",
+      "spreadHint": "relationship-7"
+    },
+    {
+      "id": "lt-cold",
+      "parent": "long-term",
+      "nameZh": "长期冷淡",
+      "keywords": ["冷淡", "没感觉", "在一起久了", "平淡", "相敬如宾"],
+      "intro": "在一起久了，激情退成习惯，连争吵都少了——你不确定这还算不算爱。",
+      "closing": "平淡不是终点，是关系的另一种形态；牌面帮你分清习惯和真心、将就与在乎。",
+      "spreadHint": "relationship-7"
+    },
+    {
+      "id": "lt-kid",
+      "parent": "long-term",
+      "nameZh": "育儿分歧",
+      "keywords": ["育儿", "孩子教育", "带娃分歧", "养娃观念", "辅导作业"],
+      "intro": "孩子把两个人的价值观差异放大了，同样一件事能吵出两种活法。",
+      "closing": "育儿分歧背面是你们对『家』的想象不同；牌面帮你们找到能一起走的那条线。",
+      "spreadHint": "relationship-7"
+    },
+    {
+      "id": "lt-cohabit",
+      "parent": "long-term",
+      "nameZh": "同居多年",
+      "keywords": ["同居", "住一起", "老夫老妻", "磨合", "生活习惯"],
+      "intro": "住在一起久了，柴米油盐把浪漫磨成了分工，你开始问这到底是搭伙还是相爱。",
+      "closing": "同居是关系的实战课；牌面帮你看清，让你想留的是这个人，还是这份安稳。",
+      "spreadHint": "relationship-7"
+    },
+    {
+      "id": "bk-left",
+      "parent": "breakup",
+      "nameZh": "被分手",
+      "keywords": ["被分手", "被甩", "对方提分手", "突然结束", "留下来的人"],
+      "intro": "关系停在你没准备好的地方，被留下的人要先接住自己的错愕。",
+      "closing": "被留下不等于你不够好；牌面帮你把『为什么是他走』和『接下来我要什么』分开。",
+      "spreadHint": "relationship-7"
+    },
+    {
+      "id": "bk-cant",
+      "parent": "breakup",
+      "nameZh": "开不了口",
+      "keywords": ["想分手", "不敢提", "开不了口", "冷暴力", "拖延分手"],
+      "intro": "你想走，却一直没把那句话出口，卡在『说了伤人或说了就真结束了』之间。",
+      "closing": "不出口的分手也是消耗；牌面帮你把『舍不得这个人』和『受够了这段关系』分开。",
+      "spreadHint": "relationship-7"
+    },
+    {
+      "id": "single-window",
+      "parent": "single",
+      "nameZh": "长期空窗",
+      "keywords": ["空窗期", "很久没谈", "一直单着", "长期单身", "脱单难"],
+      "intro": "一段时间没进入关系了，你开始怀疑是自己哪里出了问题。",
+      "closing": "空窗不是故障，是给自己留的白；牌面帮你把『急着想脱单』和『真的遇见合适的人』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "single-justended",
+      "parent": "single",
+      "nameZh": "刚结束一段",
+      "keywords": ["刚分手", "刚结束", "疗伤", "走出来", "上一任"],
+      "intro": "一段关系刚收尾，伤口还没好，新的可能就晃进来了。",
+      "closing": "刚下场的局别急着重开；牌面帮你把『还停留在上一段』和『真的新开始了』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "rf-single",
+      "parent": "relationship-form",
+      "nameZh": "不婚独身",
+      "keywords": ["不婚", "独身", "不结婚", "单身主义", "一个人挺好"],
+      "intro": "你清楚自己不想要婚姻，却总被旁人的『到年纪了』推着解释。",
+      "closing": "不婚也是一种完整的选择；牌面帮你把别人的尺和自己的心意分开摆清楚。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "rf-open",
+      "parent": "relationship-form",
+      "nameZh": "开放关系",
+      "keywords": ["开放关系", "非单偶", "多角", "开放式", "伦理非单偶"],
+      "intro": "你和对方在尝试一种不默认的相处形态，边界怎么画、谁会受伤，都是新题。",
+      "closing": "关系形态没有模板，只有合不合你们；牌面帮你们把规矩和真心分开谈。",
+      "spreadHint": "relationship-7"
+    },
+    {
+      "id": "rf-comingout",
+      "parent": "relationship-form",
+      "nameZh": "出柜接纳",
+      "keywords": ["出柜", "家庭接纳", "告知父母", "性取向", "被理解"],
+      "intro": "要把真实的自己交给家人，你怕的是不被接受，也怕这段关系从此变了样。",
+      "closing": "出柜是你的节奏，不是别人的期待；牌面帮你把『想被接纳』和『必须为接纳而活』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "tp-discover",
+      "parent": "third-party",
+      "nameZh": "发现暧昧",
+      "keywords": ["发现暧昧", "聊骚", "边界模糊", "对方不干净", "疑似出轨"],
+      "intro": "你察觉到对方和别人之间那条越界的线，还没挑明，心已经悬起来。",
+      "closing": "边界是你自己的，不用等对方承认；牌面照见你在这段关系里的处境与选择。",
+      "spreadHint": "relationship-7"
+    },
+    {
+      "id": "tp-notdone",
+      "parent": "third-party",
+      "nameZh": "对方未断",
+      "keywords": ["没断干净", "藕断丝连", "还联系", "前任纠缠", "旧情"],
+      "intro": "对方说结束了，却总还和前任牵着线，你不确定自己站的是第几位。",
+      "closing": "别人的旧账你管不了，牌面只照见你的位置——留，是因为还值得；走，是因为不甘心耗着。",
+      "spreadHint": "relationship-7"
+    },
+    {
+      "id": "tp-exit",
+      "parent": "third-party",
+      "nameZh": "要不要退出",
+      "keywords": ["该退出吗", "第三者", "让位", "成全", "退出三角"],
+      "intro": "你发现自己处在一段关系的夹缝里，进退都疼。",
+      "closing": "三角里的局最难的从来是你自己的位置；牌面帮你把『舍不得』和『该走了』分开。",
+      "spreadHint": "relationship-7"
+    },
+    {
+      "id": "iv-wait",
+      "parent": "interview",
+      "nameZh": "等结果",
+      "keywords": ["等offer", "等通知", "面试结果", "等待期", "还没消息"],
+      "intro": "面试已经交了卷，剩下的是悬着的等待，每一天的安静都像在打分。",
+      "closing": "等待不是空白，是给你复盘的空间；牌面帮你把『结果』和『你到底合不合适』分开。",
+      "spreadHint": "three-timeline"
+    },
+    {
+      "id": "iv-salary",
+      "parent": "interview",
+      "nameZh": "谈薪阶段",
+      "keywords": ["谈薪", "薪资谈判", "offer待遇", "薪酬", "议价"],
+      "intro": "offer 到了，钱的事还没谈拢，开口怕丢、不开口怕亏。",
+      "closing": "谈薪是双向定价，不是乞讨；牌面帮你把『该得的』和『怕开口的』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "jc-offer",
+      "parent": "job-change",
+      "nameZh": "已有offer",
+      "keywords": ["有offer", "拿到offer", "去新公司", "下家定了", "新机会"],
+      "intro": "新的机会已经递到手里，走还是留的天平上多了一个实打实的砝码。",
+      "closing": "有 offer 不等于有答案；牌面帮你把『新机会的吸引力』和『现在该走的真正理由』分开。",
+      "spreadHint": "three-choice"
+    },
+    {
+      "id": "jc-none",
+      "parent": "job-change",
+      "nameZh": "没下家想走",
+      "keywords": ["想辞职", "没下家", "裸辞冲动", "待不下去", "离职"],
+      "intro": "当下的环境让你想走，但还没有落点，走与留都让人慌。",
+      "closing": "想走未必是错，但为逃而走常摔得更狠；牌面帮你把『受够了』和『有方向了』分开。",
+      "spreadHint": "three-choice"
+    },
+    {
+      "id": "jc-internal",
+      "parent": "job-change",
+      "nameZh": "内部转岗",
+      "keywords": ["内部转岗", "换部门", "平调", "内部机会", "调岗"],
+      "intro": "不走远门，只在公司内部挪个位置，熟悉的园子换个地块种。",
+      "closing": "内部转岗是低风险的试探；牌面帮你把『换个环境』和『真的适合新方向』分开。",
+      "spreadHint": "three-choice"
+    },
+    {
+      "id": "wp-boss",
+      "parent": "workplace",
+      "nameZh": "与领导",
+      "keywords": ["领导", "上司", "老板", "被针对", "汇报"],
+      "intro": "和上司的关系卡在某个点，话不敢说、事不敢顶，气氛总差一口气。",
+      "closing": "上下级是权力的距离，不是人品的审判；牌面帮你把『该怎么相处』和『该不该忍』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "wp-peer",
+      "parent": "workplace",
+      "nameZh": "与同事",
+      "keywords": ["同事", "平级", "被排挤", "竞争", "团队"],
+      "intro": "和同级的人之间，合作里掺着比较，亲近里藏着防备。",
+      "closing": "同事不是朋友也不是敌人；牌面帮你把『合作的需要』和『较劲的消耗』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "st-solo",
+      "parent": "startup",
+      "nameZh": "单干",
+      "keywords": ["单干", "一个人创业", "独立做", "自己干", "独自扛"],
+      "intro": "你打算一个人把事扛起来，自由的另一面是没人替你兜底。",
+      "closing": "单干考验的不是能力，是耐力；牌面帮你把『想自由』和『真能扛』分开。",
+      "spreadHint": "situation-cross"
+    },
+    {
+      "id": "st-partner",
+      "parent": "startup",
+      "nameZh": "合伙",
+      "keywords": ["合伙", "找合伙人", "一起创业", "合股", "搭档"],
+      "intro": "创业要拉人入伙，找对伙伴比找对项目更关键，也更易翻车。",
+      "closing": "合伙是把信任写进合同；牌面帮你们把『情分』和『权责』摊在明处。",
+      "spreadHint": "situation-cross"
+    },
+    {
+      "id": "cd-switch",
+      "parent": "career-direction",
+      "nameZh": "换行",
+      "keywords": ["换行", "转行", "换赛道", "跨行", "新行业"],
+      "intro": "你动了换行的念头，旧的积累舍不得，新的方向看不清。",
+      "closing": "换行不是归零，是带着老本钱进新场；牌面帮你把『逃避旧行』和『真爱新行』分开。",
+      "spreadHint": "three-timeline"
+    },
+    {
+      "id": "cd-stay",
+      "parent": "career-direction",
+      "nameZh": "留这行吗",
+      "keywords": ["继续这行", "要不要改行", "行业没落", "坚持原行", "去留"],
+      "intro": "在这行待得越来越没劲，你问的是该不该走，还是只是忘了当初为什么来。",
+      "closing": "留与走都行，关键是理由在谁手里；牌面帮你把『惯性』和『志向』分开。",
+      "spreadHint": "three-timeline"
+    },
+    {
+      "id": "pr-compete",
+      "parent": "promotion",
+      "nameZh": "竞聘",
+      "keywords": ["竞聘", "争取岗位", "竞选", "上位", "比拼"],
+      "intro": "一个位置几个人盯着，你既想争，又怕争输了难看。",
+      "closing": "竞聘是能力的亮相，不是人缘的投票；牌面帮你把『该出手』和『该再练』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "pr-raise",
+      "parent": "promotion",
+      "nameZh": "谈加薪",
+      "keywords": ["谈加薪", "涨薪", "要加钱", "薪酬谈判", "升值"],
+      "intro": "你觉得自己值更多，却不知道该怎么把这句话说得不心虚。",
+      "closing": "加薪靠的是价值证据，不是情怀；牌面帮你把『该得的』和『怕开口的』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "bo-tired",
+      "parent": "burnout",
+      "nameZh": "累不敢走",
+      "keywords": ["不敢辞职", "累但不敢走", "房贷压力", "辞不起", "绑定"],
+      "intro": "你早就累了，却被现实拴着不敢动，进退都像在透支。",
+      "closing": "不敢走是因为有要扛的，不是因为你没骨气；牌面帮你把『现实捆绑』和『真想留』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "bo-meaning",
+      "parent": "burnout",
+      "nameZh": "做着没意思",
+      "keywords": ["没意义", "提不起劲", "空虚", "价值感", "厌倦"],
+      "intro": "钱没少拿、位没降，可就是觉得手里的活没意思了。",
+      "closing": "没意思和累不是一回事；牌面帮你把『该换燃料』和『只是阶段性倦怠』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "pa-friend",
+      "parent": "partnership",
+      "nameZh": "朋友合伙",
+      "keywords": ["和朋友合伙", "熟人合作", "友情生意", "兄弟创业", "熟人"],
+      "intro": "把朋友变成合伙人，情分和账目一旦混在一起，最难的是分。",
+      "closing": "熟人合伙先把丑话说前头；牌面帮你们把『交情』和『规则』写清楚。",
+      "spreadHint": "situation-cross"
+    },
+    {
+      "id": "pa-divide",
+      "parent": "partnership",
+      "nameZh": "分工分钱",
+      "keywords": ["分工", "分钱", "股权", "利益分配", "权责"],
+      "intro": "活怎么分、钱怎么算，是合作里最容易翻脸的地方。",
+      "closing": "账算在明处，关系才走得远；牌面帮你们把『谁出力』和『谁得利』对齐。",
+      "spreadHint": "situation-cross"
+    },
+    {
+      "id": "fl-unstable",
+      "parent": "freelance",
+      "nameZh": "接单不稳",
+      "keywords": ["接单不稳", "没活", "淡季", "收入波动", "客户少"],
+      "intro": "自由职业的淡季来了，账户和心情一起往下掉。",
+      "closing": "不稳定是自由的代价；牌面帮你把『暂时的淡』和『模式有问题』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "fl-fromft",
+      "parent": "freelance",
+      "nameZh": "从全职转",
+      "keywords": ["从全职转", "辞职做自由", "社保", "转型自由职业", "脱离公司"],
+      "intro": "你打算离开稳定的公司去单干，自由和社保都悬在半空。",
+      "closing": "转自由不是赌博，是有准备的下场；牌面帮你把『向往自由』和『真的准备好』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "fl-security",
+      "parent": "freelance",
+      "nameZh": "社保安全感",
+      "keywords": ["社保", "公积金", "五险一金", "保障", "安全感"],
+      "intro": "脱离公司后，最虚的是那张曾经不用操心的保障网。",
+      "closing": "安全感可以自己织；牌面帮你把『缺保障的慌』和『真的风险』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "ew-quit",
+      "parent": "empty-window",
+      "nameZh": "裸辞后",
+      "keywords": ["裸辞", "主动离职", "空窗", "休息中", "gap"],
+      "intro": "你主动按了暂停，世界却用『你怎么还没事做』逼你焦虑。",
+      "closing": "空窗是你争取来的缓冲，不是事故；牌面帮你把『该歇』和『该上路』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "ew-fired",
+      "parent": "empty-window",
+      "nameZh": "被裁后",
+      "keywords": ["被裁", "失业", "优化", "裁员", "被动离开"],
+      "intro": "离开不是你的选择，错愕和后怕比简历更先到。",
+      "closing": "被裁不等于你不行；牌面帮你把『外界的变动』和『自己的价值』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "ew-gap",
+      "parent": "empty-window",
+      "nameZh": "间隔年",
+      "keywords": ["间隔年", "旅行空档", "休学", "暂歇", "探索期"],
+      "intro": "你给自己留了一段不被定义的时间，周围人却急着给你贴标签。",
+      "closing": "间隔年是为了看清再出发；牌面帮你把『真在探索』和『只是拖延』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "mt-age",
+      "parent": "midlife-transition",
+      "nameZh": "35+转型",
+      "keywords": ["35岁", "年龄焦虑", "中年", "大龄", "转行晚"],
+      "intro": "到了被年龄定义的关口，你怕的不是没机会，是试错成本变高了。",
+      "closing": "年纪是过滤器，不是终点；牌面帮你把『别人的时钟』和『自己的节奏』分开。",
+      "spreadHint": "three-timeline"
+    },
+    {
+      "id": "mt-down",
+      "parent": "midlife-transition",
+      "nameZh": "行业下行",
+      "keywords": ["行业下行", "被淘汰", "夕阳", "萎缩", "风口过了"],
+      "intro": "你所在的行当在收缩，曾经的铁饭碗开始漏风。",
+      "closing": "行业会老，人的本事不会；牌面帮你把『守旧行』和『该挪窝』分开。",
+      "spreadHint": "three-timeline"
+    },
+    {
+      "id": "mt-restart",
+      "parent": "midlife-transition",
+      "nameZh": "重新出发",
+      "keywords": ["重新出发", "二次创业", "再起步", "重启", "中年换行"],
+      "intro": "你想把积攒的力气投到新地方，只是不确定这把年纪还来不来得及。",
+      "closing": "重新出发没有截止年龄；牌面帮你把『真想做』和『怕来不及』分开。",
+      "spreadHint": "three-timeline"
+    },
+    {
+      "id": "si-start",
+      "parent": "side-income",
+      "nameZh": "还没起步",
+      "keywords": ["没起步", "想做副业", "副业方向", "不知道做什么", "副业想法"],
+      "intro": "你动了做副业的心，却卡在『做什么、怎么开始』的第一格。",
+      "closing": "副业是养出来的，不是想出来的；牌面帮你把『真有方向』和『只是焦虑跟风』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "si-stuck",
+      "parent": "side-income",
+      "nameZh": "起不来",
+      "keywords": ["副业起不来", "没起色", "做不下去", "副业没收入", "停滞"],
+      "intro": "副业开了头却没起色，你开始怀疑是方向错了还是火候没到。",
+      "closing": "起不来不等于错了；牌面帮你把『方向要调』和『只是时间没到』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "dt-repay",
+      "parent": "debt",
+      "nameZh": "还债中",
+      "keywords": ["还债", "还贷", "月供", "负债", "催收"],
+      "intro": "每个月工资刚到就被债拿走一大块，喘口气的缝隙越来越窄。",
+      "closing": "债会还完，心里的慌要先安放；牌面照见先动哪一笔最松一口气。",
+      "spreadHint": "situation-cross"
+    },
+    {
+      "id": "dt-lent",
+      "parent": "debt",
+      "nameZh": "借出未还",
+      "keywords": ["借出去", "别人欠钱", "讨债", "借款", "赖账"],
+      "intro": "钱借给了别人，收不回来，难的不是数字是关系。",
+      "closing": "借出去的钱牵着关系；牌面帮你把『该催』和『这段关系还值不值』分开。",
+      "spreadHint": "situation-cross"
+    },
+    {
+      "id": "inc-raise",
+      "parent": "income",
+      "nameZh": "想涨薪",
+      "keywords": ["涨薪", "加薪", "提收入", "薪资", "要钱"],
+      "intro": "你觉得自己该多挣，却一直没把『值更多』变成『拿到更多』。",
+      "closing": "收入的天花板常是自己设的；牌面帮你把『该争取』和『怕开口』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "inc-stuck",
+      "parent": "income",
+      "nameZh": "收入停滞",
+      "keywords": ["收入停滞", "赚不到", "瓶颈", "不上不下", "卡住"],
+      "intro": "收入停在某个数很久了，怎么努力都像撞上一堵透明的墙。",
+      "closing": "卡住时硬挤最没用；牌面帮你把『方法要换』和『赛道到顶』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "bp-house",
+      "parent": "big-purchase",
+      "nameZh": "买房",
+      "keywords": ["买房", "置业", "房贷", "首付", "月供"],
+      "intro": "一笔房把未来二三十年的现金流都押上，你怕买错也怕错过。",
+      "closing": "买房买的是安心不是面子；牌面帮你把『需要』和『被裹挟』分开。",
+      "spreadHint": "situation-cross"
+    },
+    {
+      "id": "bp-car",
+      "parent": "big-purchase",
+      "nameZh": "买车",
+      "keywords": ["买车", "换车", "代步", "用车", "座驾"],
+      "intro": "买车这件事，理性算的是代步，心里算的是面子。",
+      "closing": "车是消耗品也是情绪的锚；牌面帮你把『真需要』和『想要被看见』分开。",
+      "spreadHint": "situation-cross"
+    },
+    {
+      "id": "bp-worth",
+      "parent": "big-purchase",
+      "nameZh": "一笔值不值",
+      "keywords": ["值不值", "大额消费", "该不该买", "冲动消费", "大件"],
+      "intro": "一笔不小的花销摆在面前，理智说再想想，冲动说现在就要。",
+      "closing": "大件买的是确定性不是后悔；牌面帮你把『想要』和『需要』分开。",
+      "spreadHint": "three-choice"
+    },
+    {
+      "id": "sv-cant",
+      "parent": "savings",
+      "nameZh": "存不下钱",
+      "keywords": ["存不下", "月光", "攒不住", "花得快", "存钱难"],
+      "intro": "每个月都想存，月底一看还是空，你开始怀疑自己哪里漏了。",
+      "closing": "存不下常不是收入问题，是结构问题；牌面帮你把『该省的』和『在替情绪买单的』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "sv-anxiety",
+      "parent": "savings",
+      "nameZh": "对钱焦虑",
+      "keywords": ["钱焦虑", "不安全感", "怕没钱", "没钱慌", "保障"],
+      "intro": "账户的数字明明够花，心里那块『万一不够』却总填不满。",
+      "closing": "对钱的焦虑买的不是数字，是踏实；牌面帮你把『真实缺口』和『被放大的怕』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "sm-biz",
+      "parent": "split-money",
+      "nameZh": "合伙分账",
+      "keywords": ["合伙分账", "股权", "分红", "利益", "账目"],
+      "intro": "生意上的账怎么分，是关系里最容易翻脸的角落。",
+      "closing": "账算在明处，情分才保得住；牌面帮你们把『谁出力』和『谁得利』对齐。",
+      "spreadHint": "situation-cross"
+    },
+    {
+      "id": "sm-friend",
+      "parent": "split-money",
+      "nameZh": "亲友借贷",
+      "keywords": ["亲友借钱", "借给家人", "借钱", "讨债", "人情账"],
+      "intro": "亲戚朋友开口借钱，借是不借，借了怎么要回来，都是人情题。",
+      "closing": "钱牵着人情，最难的是敢开口；牌面帮你把『该帮』和『该守的边界』分开。",
+      "spreadHint": "situation-cross"
+    },
+    {
+      "id": "ex-first",
+      "parent": "exam",
+      "nameZh": "初试",
+      "keywords": ["初试", "笔试", "第一轮", "备考", "一模"],
+      "intro": "第一关就在眼前，你怕的不是不会，是临场那口气没接上。",
+      "closing": "初试是筛选不是终审；牌面帮你把『准备到位』和『自己吓自己』分开。",
+      "spreadHint": "three-timeline"
+    },
+    {
+      "id": "ex-re",
+      "parent": "exam",
+      "nameZh": "复试",
+      "keywords": ["复试", "面试", "第二轮", "终面", "答辩前"],
+      "intro": "过了初试，复试更考人——不只是知识，还有你怎么被看见。",
+      "closing": "复试比的是综合气场；牌面帮你把『硬实力』和『状态』都看清。",
+      "spreadHint": "three-timeline"
+    },
+    {
+      "id": "ex-retake",
+      "parent": "exam",
+      "nameZh": "再来一年",
+      "keywords": ["二战", "再来一年", "复读", "重考", "gap年考试"],
+      "intro": "你打算再花一年重来，周围人的眼光比试卷更重。",
+      "closing": "再来一年不是失败，是选了更稳的路；牌面帮你把『真想考』和『不敢面对其它选择』分开。",
+      "spreadHint": "three-timeline"
+    },
+    {
+      "id": "sc-school",
+      "parent": "school",
+      "nameZh": "选学校",
+      "keywords": ["选学校", "挑大学", "院校", "排名", "去哪读"],
+      "intro": "几所学校摆在桌上，名气、城市、专业搅成一团，你挑花眼。",
+      "closing": "选校是选跑道不是选光环；牌面帮你把『别人眼里的好』和『适合你的』分开。",
+      "spreadHint": "three-choice"
+    },
+    {
+      "id": "sc-major",
+      "parent": "school",
+      "nameZh": "选专业",
+      "keywords": ["选专业", "挑专业", "志愿", "学科", "方向"],
+      "intro": "专业这道选择题，据说能定一辈子，你怕选错又怕错过。",
+      "closing": "专业是入口不是牢笼；牌面帮你把『真有兴趣』和『听来的热门』分开。",
+      "spreadHint": "three-choice"
+    },
+    {
+      "id": "sc-abroad",
+      "parent": "school",
+      "nameZh": "出国读书",
+      "keywords": ["出国", "留学", "海外", "申请", "异国求学"],
+      "intro": "出去读书是一场大迁徙，离别的重量和未知的兴奋一起砸下来。",
+      "closing": "出国是换土壤不是换命；牌面帮你把『想去看世界』和『在躲国内的题』分开。",
+      "spreadHint": "three-timeline"
+    },
+    {
+      "id": "th-open",
+      "parent": "thesis",
+      "nameZh": "开题",
+      "keywords": ["开题", "选题", "方向定", "研究计划", "立项"],
+      "intro": "论文的第一道坎是定方向，你怕选题太大做不动、太小没价值。",
+      "closing": "开题定的是地基不是结局；牌面帮你把『真想研究』和『好写』分开。",
+      "spreadHint": "three-timeline"
+    },
+    {
+      "id": "th-stuck",
+      "parent": "thesis",
+      "nameZh": "卡壳",
+      "keywords": ["卡壳", "写不出", "没思路", "瓶颈", "拖延论文"],
+      "intro": "资料堆了一桌，字却一个也挤不出，截止时间在追。",
+      "closing": "卡壳常是方向没清；牌面帮你把『该补文献』和『该换角度』分开。",
+      "spreadHint": "three-timeline"
+    },
+    {
+      "id": "th-defense",
+      "parent": "thesis",
+      "nameZh": "答辩",
+      "keywords": ["答辩", "汇报", "评审", "毕业答辩", "过关"],
+      "intro": "答辩像被放在聚光灯下，你怕的不是不会答，是被问住的尴尬。",
+      "closing": "答辩是展示不是审判；牌面帮你把『准备充分』和『紧张过头』分开。",
+      "spreadHint": "three-timeline"
+    },
+    {
+      "id": "te-advisor",
+      "parent": "teacher",
+      "nameZh": "与导师",
+      "keywords": ["导师", "老板", "师生关系", "被针对", "指导"],
+      "intro": "和导师的关系直接影响你的进度和心情，话不敢说、路不敢选。",
+      "closing": "导师是前辈不是判官；牌面帮你把『该怎么相处』和『该不该忍』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "te-peer",
+      "parent": "teacher",
+      "nameZh": "与同学",
+      "keywords": ["同学", "同门", "实验室", "竞争", "室友同学"],
+      "intro": "同窗之间，合作里有比较，亲近里有防备，实验室也是小社会。",
+      "closing": "同学是同行者不是对手；牌面帮你把『合作需要』和『较劲消耗』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "ss-cant",
+      "parent": "study-state",
+      "nameZh": "学不进去",
+      "keywords": ["学不进去", "看不进", "效率低", "分心", "坐不住"],
+      "intro": "书摊在面前，脑子却飘到天边，越逼自己越进不去。",
+      "closing": "学不进去常是方法或精力的问题；牌面帮你把『该换方法』和『该歇一歇』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "ss-proc",
+      "parent": "study-state",
+      "nameZh": "拖延",
+      "keywords": ["拖延", "拖", "不想动", "磨蹭", "迟迟不动"],
+      "intro": "任务越积越多，你一边焦虑一边刷手机，循环停不下来。",
+      "closing": "拖延背后常是怕做不好；牌面帮你把『真难』和『只是怕开始』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "ss-motiv",
+      "parent": "study-state",
+      "nameZh": "没动力",
+      "keywords": ["没动力", "提不起劲", "厌学", "空虚", "为什么要学"],
+      "intro": "你开始问『学这些到底为了什么』，答案越想越空。",
+      "closing": "没动力是意义感的警报；牌面帮你把『该换目标』和『只是阶段性倦怠』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "up-work",
+      "parent": "upskill",
+      "nameZh": "在职读书",
+      "keywords": ["在职读书", "边工作边学", "夜校", "进修", "读研"],
+      "intro": "工作已经占满时间，你还想挤出夜晚去读，累是真的，想进步也是真的。",
+      "closing": "在职充电是给自己的续命；牌面帮你把『真需要』和『焦虑跟风』分开。",
+      "spreadHint": "three-timeline"
+    },
+    {
+      "id": "up-switch",
+      "parent": "upskill",
+      "nameZh": "转行学新",
+      "keywords": ["转行学", "学新技能", "跨行准备", "考证", "新本领"],
+      "intro": "为了转到新行当，你开始恶补完全陌生的本事。",
+      "closing": "学新本事是给未来铺路；牌面帮你把『该学什么』和『慌不择路』分开。",
+      "spreadHint": "three-timeline"
+    },
+    {
+      "id": "up-cert",
+      "parent": "upskill",
+      "nameZh": "考证书",
+      "keywords": ["考证", "证书", "资格证", "执照", "背书"],
+      "intro": "你报了一堆证，想用纸面上的背书换一点安全感。",
+      "closing": "证书是门票不是答案；牌面帮你把『真有用』和『买了一堆安心』分开。",
+      "spreadHint": "three-timeline"
+    },
+    {
+      "id": "pc-toddler",
+      "parent": "parent-child",
+      "nameZh": "幼儿期",
+      "keywords": ["幼儿", "宝宝", "幼小", "陪玩", "早教"],
+      "intro": "孩子还小，你怕自己哪一步没做对，又怕被育儿焦虑牵着走。",
+      "closing": "小小孩要的是稳定的爱；牌面帮你把『该学的』和『被贩卖的焦虑』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "pc-teen",
+      "parent": "parent-child",
+      "nameZh": "青春期",
+      "keywords": ["青春期", "叛逆", "孩子不听", "顶嘴", "早恋"],
+      "intro": "孩子到了关门的年纪，你说的话他越听越烦，你越想靠近他越退。",
+      "closing": "青春期是孩子的独立演习；牌面帮你把『该管的』和『该退的位』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "pc-adult",
+      "parent": "parent-child",
+      "nameZh": "成年子女",
+      "keywords": ["成年子女", "长大", "离家", "独立", "啃老"],
+      "intro": "孩子大了，关系的题从『怎么养』变成『怎么处』，松手比抓更难的。",
+      "closing": "成年子女是独立的个体；牌面帮你把『该放手』和『放不下的牵挂』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "fo-parents",
+      "parent": "family-origin",
+      "nameZh": "与父母",
+      "keywords": ["父母", "原生家庭", "控制", "期待", "亲子"],
+      "intro": "长大之后和父母的关系，从服从变成对峙，你还在找相处的距离。",
+      "closing": "父母是来路不是枷锁；牌面帮你把『该感恩的』和『该划的线』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "fo-child",
+      "parent": "family-origin",
+      "nameZh": "童年影响",
+      "keywords": ["童年", "小时候", "被否定", "影响", "旧事"],
+      "intro": "有些小时候的事，长大了还在你身上悄悄起作用。",
+      "closing": "童年是来路不是归途；牌面帮你把『旧伤』和『现在的你』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "fo-denied",
+      "parent": "family-origin",
+      "nameZh": "总被否定",
+      "keywords": ["被否定", "打压", "批评", "不够好", "否定式教育"],
+      "intro": "你从小被『为你好』的名义否定，长大还在用别人的尺量自己。",
+      "closing": "被否定不是你的错；牌面帮你把『别人的评价』和『自己的价值』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "fc-move",
+      "parent": "family-change",
+      "nameZh": "搬迁",
+      "keywords": ["搬家", "搬迁", "换城市", "家庭迁移", "环境变"],
+      "intro": "一家人要挪地方，打乱的不只是住址，是整段生活的节奏。",
+      "closing": "搬迁是重新扎根；牌面帮你把『该搬』和『只是想逃』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "fc-loss",
+      "parent": "family-change",
+      "nameZh": "亲人离世",
+      "keywords": ["亲人离世", "去世", "丧失", "走了一个", "送别"],
+      "intro": "家里少了一个人，原本的秩序塌了一角，你还在学怎么带着缺口过。",
+      "closing": "丧失的痛没有截止日；牌面陪你把迈出的第一步看清，不替你扛。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "fc-divorce",
+      "parent": "family-change",
+      "nameZh": "父母离异",
+      "keywords": ["父母离异", "离婚", "家庭破碎", "单亲", "重组"],
+      "intro": "父母的关系走到尽头，你夹在中间，被两头拉扯。",
+      "closing": "父母的婚姻是他们的事；牌面帮你把『该承担的』和『不该你扛的』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "il-habit",
+      "parent": "inlaw",
+      "nameZh": "习惯差异",
+      "keywords": ["生活习惯", "差异", "代沟", "做饭", "带孩子方式"],
+      "intro": "和对方家人住或往来，最磨人的是那些说不清的小习惯。",
+      "closing": "差异不是对错；牌面帮你们把『能忍的』和『该划的边界』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "il-bound",
+      "parent": "inlaw",
+      "nameZh": "边界立场",
+      "keywords": ["边界", "立场", "干涉", "插手", "自主"],
+      "intro": "对方家人把手伸得太长，你不知道这条线该谁来画。",
+      "closing": "边界是你家的，不是长辈赏的；牌面帮你把『该尊重的』和『该守的』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "ft-want",
+      "parent": "fertility",
+      "nameZh": "想要孩子",
+      "keywords": ["想要孩子", "生娃", "期待当父母", "计划要孩子", "想当爸妈"],
+      "intro": "你想成为父母，这份期待里混着对身体的未知和对生活的想象。",
+      "closing": "想不想要都是你的事；牌面帮你把『真想要』和『到年纪了该要』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "ft-dink",
+      "parent": "fertility",
+      "nameZh": "选择丁克",
+      "keywords": ["丁克", "不想要孩子", "不生", "二人世界", "选择"],
+      "intro": "你们决定不生育，周围人的『以后会后悔』像背景音挥不掉。",
+      "closing": "丁克是正当的选择；牌面帮你把『自己的意愿』和『别人的担心』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "ft-timing",
+      "parent": "fertility",
+      "nameZh": "时间点的拉扯",
+      "keywords": ["什么时候生", "时机", "年龄", "事业家庭", "节点"],
+      "intro": "生不生之外，还有个『什么时候』的拉扯，事业和家庭在抢时间。",
+      "closing": "时机没有满分答案；牌面帮你把『真想现在』和『被推着走』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "cg-old",
+      "parent": "caregiving",
+      "nameZh": "父母年迈",
+      "keywords": ["父母年迈", "养老", "变老", "照顾老人", "体弱"],
+      "intro": "父母老了，从前被照顾的人成了要照顾的人，角色悄悄反转。",
+      "closing": "养老是反哺也是消耗；牌面帮你把『该扛的』和『该借的力』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "cg-long",
+      "parent": "caregiving",
+      "nameZh": "长期照护",
+      "keywords": ["长期照护", "卧床", "失能", "护理", "辛苦"],
+      "intro": "长期的照护像一场没有终点的陪跑，体力和心力一起被抽。",
+      "closing": "长期照护最怕一个人扛；牌面帮你把『能做的』和『该找外援的』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "cg-sand",
+      "parent": "caregiving",
+      "nameZh": "三明治一代",
+      "keywords": ["三明治", "上有老下有小", "夹中间", "双重压力", "中年照护"],
+      "intro": "上面要顾、下面要养，你被夹在中间，自己的位置最先没。",
+      "closing": "夹在中间先别丢了自己；牌面帮你把『该分担的』和『该划的边界』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "bl-single",
+      "parent": "blended",
+      "nameZh": "单亲养育",
+      "keywords": ["单亲", "一个人带娃", "独自抚养", "离异带娃", "独自扛"],
+      "intro": "你一个人扛起养育，累是真的，也想给孩子完整的爱。",
+      "closing": "单亲也能养出底气；牌面帮你把『该扛的』和『该借的力』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "bl-step",
+      "parent": "blended",
+      "nameZh": "继亲关系",
+      "keywords": ["继父", "继母", "继子女", "重组", "相处"],
+      "intro": "新的家庭拼图里，你怎么和不是亲生的孩子相处，是全新的题。",
+      "closing": "继亲靠的是耐心不是血缘；牌面帮你把『该做的』和『强求的』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "fr-drift",
+      "parent": "friendship",
+      "nameZh": "渐行渐远",
+      "keywords": ["渐行渐远", "疏远", "不联系", "淡了", "朋友变少"],
+      "intro": "曾经无话不谈的人，慢慢从每天变成偶尔，你不知道哪一步走偏了。",
+      "closing": "渐远有时是各自生长；牌面帮你把『真散了』和『只是阶段错位』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "fr-cut",
+      "parent": "friendship",
+      "nameZh": "绝交",
+      "keywords": ["绝交", "拉黑", "断交", "闹翻", "彻底不往来"],
+      "intro": "一段友情走到要撕破脸，你气的是背叛，也疼的是曾经。",
+      "closing": "绝交是止损不是失败；牌面帮你把『该断的』和『还恋恋的』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "fr-betray",
+      "parent": "friendship",
+      "nameZh": "被辜负",
+      "keywords": ["被辜负", "背叛", "利用", "背后捅刀", "失望"],
+      "intro": "你交付了信任，对方却拿来换自己的方便，落差大到硌人。",
+      "closing": "被辜负是你的善意没被接住，不是你蠢；牌面帮你把『该信谁』和『该守的底线』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "be-new",
+      "parent": "belonging",
+      "nameZh": "新环境",
+      "keywords": ["新环境", "刚来", "陌生", "融入", "转学转岗"],
+      "intro": "你刚进一个圈子，所有人好像都认识彼此，只有你是外人。",
+      "closing": "融入需要时间不是过错；牌面帮你把『真格格不入』和『只是还没熟』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "be-out",
+      "parent": "belonging",
+      "nameZh": "格格不入",
+      "keywords": ["格格不入", "不合群", "异类", "孤僻", "融不进"],
+      "intro": "你总觉得自己和周围频率对不上，像站错房间的客人。",
+      "closing": "格格不入也许是你还没找到对的房间；牌面帮你把『该改的』和『该换的圈子』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "co-exclude",
+      "parent": "conflict",
+      "nameZh": "被排挤",
+      "keywords": ["排挤", "孤立", "被针对", "小团体", "边缘化"],
+      "intro": "你察觉到圈子在把你往外推，不明不白地成了局外人。",
+      "closing": "被排挤是别人的局不是你的价；牌面帮你把『该留的圈子』和『该走的』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "co-misunder",
+      "parent": "conflict",
+      "nameZh": "被误解",
+      "keywords": ["被误解", "说不清", "背锅", "误会", "解释不清"],
+      "intro": "一句话被传歪，你百口莫辩，清白卡在别人嘴上。",
+      "closing": "误解靠时间和行动洗，不靠急辩；牌面帮你把『该解释的』和『该放下的』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "bd-cant",
+      "parent": "boundary",
+      "nameZh": "不会说不",
+      "keywords": ["不会拒绝", "不懂说不", "讨好", "老好人", "难开口"],
+      "intro": "别人一开口你就点头，答应完才后悔，你的『好』从来没问过自己。",
+      "closing": "不会拒绝先亏待自己；牌面帮你把『该帮的』和『该守的线』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "bd-used",
+      "parent": "boundary",
+      "nameZh": "被索取",
+      "keywords": ["被索取", "总被找", "占便宜", "消耗", "工具人"],
+      "intro": "有人把你当随时可取用的资源，拿走时连谢谢都省。",
+      "closing": "被索取是你的边界没立住；牌面帮你把『该给的』和『该停的』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "ob-friend",
+      "parent": "online-bond",
+      "nameZh": "网友友谊",
+      "keywords": ["网友", "线上朋友", "网聊", "陌生网友", "聊得来"],
+      "intro": "屏幕那头的人懂你，比身边人还懂，你开始分不清这是真的近还是只是方便。",
+      "closing": "线上友谊也是真的，只是少了体温；牌面帮你把『真心相交』和『填补空虚』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "ob-group",
+      "parent": "online-bond",
+      "nameZh": "社群归属",
+      "keywords": ["社群", "圈子", "归属感", "群聊", "同好"],
+      "intro": "你在一个群体里找到同类，又怕自己只是凑数的那个。",
+      "closing": "归属感靠共鸣不靠数量；牌面帮你把『真合拍』和『怕落单才留』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "ob-only",
+      "parent": "online-bond",
+      "nameZh": "只网上认识",
+      "keywords": ["只在网上", "没见过", "奔现", "网络认识", "纯线上"],
+      "intro": "这段关系全在云端，落不落地、怎么落地，你还没想清。",
+      "closing": "纯线上的心动也想好了再落地；牌面帮你把『想象』和『现实』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "ob-discuss",
+      "parent": "online-backlash",
+      "nameZh": "被议论",
+      "keywords": ["被议论", "被说闲话", "评价", "围观", "议论"],
+      "intro": "你成了别人嘴里的谈资，没做错什么却被推到放大镜底下。",
+      "closing": "围观的声音你管不住；牌面帮你把『该在意的』和『该屏蔽的』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "ob-attack",
+      "parent": "online-backlash",
+      "nameZh": "被围攻",
+      "keywords": ["网暴", "被围攻", "骂战", "举报", "攻击"],
+      "intro": "屏幕那头的人排成队向你扔石头，你第一次知道键盘这么重。",
+      "closing": "网暴的浪会过去；牌面帮你把『别人的恶意』和『自己的安定』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "ob-offline",
+      "parent": "online-backlash",
+      "nameZh": "想断联",
+      "keywords": ["断网", "想消失", "戒手机", "退圈", "断联"],
+      "intro": "你厌倦了被算法和评论牵着走，想抽身又怕错过什么。",
+      "closing": "断联是给自己的呼吸阀；牌面帮你把『真想歇』和『只是赌气』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "dr-where",
+      "parent": "direction",
+      "nameZh": "该往哪走",
+      "keywords": ["该往哪走", "迷茫", "方向", "不知道要什么", "路口"],
+      "intro": "你站在岔路口，每条路都像对的，又都像错的。",
+      "closing": "方向是走出来的不是想出来的；牌面帮你把『外界期待』和『自己的心意』分开。",
+      "spreadHint": "three-timeline"
+    },
+    {
+      "id": "dr-mid",
+      "parent": "direction",
+      "nameZh": "中年转向",
+      "keywords": ["中年转向", "中年危机", "重新定位", "四十", "转轨"],
+      "intro": "人到中段，你忽然问自己是不是走错了整条路。",
+      "closing": "中年的转向是清醒不是崩塌；牌面帮你把『真想换』和『被恐慌推着』分开。",
+      "spreadHint": "three-timeline"
+    },
+    {
+      "id": "pt-samep",
+      "parent": "pattern",
+      "nameZh": "同一种人",
+      "keywords": ["反复遇到", "同一种人", "总是吸引", "循环", "老剧本"],
+      "intro": "你发现总被同一类人吸引，摔在同一个坑里，像被设了程序。",
+      "closing": "同一道题考到你学会为止；牌面帮你照见反复绕的那道弯。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "pt-samek",
+      "parent": "pattern",
+      "nameZh": "同一种卡点",
+      "keywords": ["同一种卡点", "反复卡住", "老问题", "循环", "模式"],
+      "intro": "不同的事，卡住你的却是同一个点，你开始怀疑是不是自己哪里没通。",
+      "closing": "卡点是来上课的；牌面帮你把『该修的』和『该放过的』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "se-who",
+      "parent": "self",
+      "nameZh": "我是谁",
+      "keywords": ["我是谁", "自我", "身份", "迷失", "认识自己"],
+      "intro": "你问自己到底是谁，答案越想越飘，像在雾里找名字。",
+      "closing": "认识自己是一辈子功课；牌面这面镜子不太客气，但照得见真相。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "se-accept",
+      "parent": "self",
+      "nameZh": "接纳自己",
+      "keywords": ["接纳自己", "自我价值", "不够好", "自卑", "爱自己"],
+      "intro": "你道理都懂，却总在深夜觉得自己不够好，接纳停在嘴边。",
+      "closing": "接纳不是认命是松手；牌面帮你把『真缺点』和『被放大的怕』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "fe-start",
+      "parent": "fear",
+      "nameZh": "不敢开始",
+      "keywords": ["不敢开始", "迈不出步", "怕", "犹豫", "停在原地"],
+      "intro": "你想做的事在脑子里演练了一百遍，脚却没迈出一步。",
+      "closing": "怕的是脑补的后果；牌面帮你把『真危险』和『想象的灾难』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "fe-fail",
+      "parent": "fear",
+      "nameZh": "怕失败",
+      "keywords": ["怕失败", "怕做不好", "输不起", "恐惧", "搞砸"],
+      "intro": "你不是不想做，是怕做了还是不成，连试的资格都亏掉。",
+      "closing": "怕失败常是怕被定义；牌面帮你把『事没成』和『我不行』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "in-dream",
+      "parent": "intuition",
+      "nameZh": "反复的梦",
+      "keywords": ["梦", "梦境", "反复梦", "预感梦", "噩梦"],
+      "intro": "同一个梦反复来找你，醒了还挂着，像有什么没说完。",
+      "closing": "梦是潜意识的信；牌面帮你把『该听的』和『只是白天的余震』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "in-gut",
+      "parent": "intuition",
+      "nameZh": "直觉准不准",
+      "keywords": ["直觉", "第六感", "预感", "灵光", "心里有数"],
+      "intro": "你心里有个声音一直在说，你却不敢信它，怕是自己一厢情愿。",
+      "closing": "直觉是身体记下的账；牌面帮你分清灵光一闪和一厢情愿。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "mv-city",
+      "parent": "move",
+      "nameZh": "同城搬",
+      "keywords": ["同城搬家", "换房", "附近搬", "小搬", "租房换"],
+      "intro": "就在城里挪个窝，东西不多，要收拾的心思不少。",
+      "closing": "同城搬迁是生活的微调；牌面帮你把『真想换环境』和『只是想动一动』分开。",
+      "spreadHint": "three-choice"
+    },
+    {
+      "id": "mv-cross",
+      "parent": "move",
+      "nameZh": "跨城搬",
+      "keywords": ["跨城", "换城市", "去外地", "搬迁", "异地安家"],
+      "intro": "换一座城，等于把整段生活连根拔起再种，勇气和代价都大。",
+      "closing": "跨城是换土壤也是换自己；牌面帮你把『真想去』和『在逃什么』分开。",
+      "spreadHint": "three-choice"
+    },
+    {
+      "id": "rb-value",
+      "parent": "rent-buy",
+      "nameZh": "价值观拉扯",
+      "keywords": ["租买价值观", "自由vs安稳", "买房执念", "不买房", "生活方式"],
+      "intro": "租还是买，表面是钱，背后是你想要什么样的生活。",
+      "closing": "租与买买的都是安心感；牌面帮你把『需要』和『面子』分开。",
+      "spreadHint": "three-choice"
+    },
+    {
+      "id": "la-alone",
+      "parent": "live-alone",
+      "nameZh": "一个人住",
+      "keywords": ["独居", "一个人住", "单身公寓", "自由", "独处"],
+      "intro": "你享受一个人住的清静，也偶尔被那份清静压得发慌。",
+      "closing": "独居是自由也是功课；牌面照见你真正想要的是清静还是别被落下。",
+      "spreadHint": "three-choice"
+    },
+    {
+      "id": "la-together",
+      "parent": "live-alone",
+      "nameZh": "与人合住",
+      "keywords": ["合租", "合住", "室友", "合租矛盾", "分摊"],
+      "intro": "和别人共享一个屋檐，最难的不是房租是边界。",
+      "closing": "合住是边界的实战；牌面帮你把『该忍的』和『该划的线』分开。",
+      "spreadHint": "three-choice"
+    },
+    {
+      "id": "la-back",
+      "parent": "live-alone",
+      "nameZh": "搬回父母家",
+      "keywords": ["搬回父母家", "回老家住", "与父母同住", "暂住", "回家"],
+      "intro": "你考虑搬回去和父母住，省下的房租和失去的空间在天平两端。",
+      "closing": "搬回去是选择不是退步；牌面帮你把『真需要』和『只是没别的路』分开。",
+      "spreadHint": "three-choice"
+    },
+    {
+      "id": "ts-alone",
+      "parent": "travel-stay",
+      "nameZh": "独自出行",
+      "keywords": ["独自旅行", "一个人走", "出走", "散心", "独行"],
+      "intro": "你一个人上路，想借异地的风把自己吹醒。",
+      "closing": "独自出行是给自己的留白；牌面帮你把『想透口气』和『真想换活法』分开。",
+      "spreadHint": "three-choice"
+    },
+    {
+      "id": "ts-group",
+      "parent": "travel-stay",
+      "nameZh": "与人同行",
+      "keywords": ["结伴旅行", "和谁去", "同伴", "同行", "蜜月"],
+      "intro": "和别人一起走，快乐有人分，麻烦也有人添，节奏最难调。",
+      "closing": "同行是关系的放大镜；牌面帮你们把『该迁就的』和『该坚持的』分开。",
+      "spreadHint": "three-choice"
+    },
+    {
+      "id": "ts-live",
+      "parent": "travel-stay",
+      "nameZh": "旅居",
+      "keywords": ["旅居", "数字游民", "长住", "他乡", "慢旅行"],
+      "intro": "你不想只是路过，想在别处住下来，把旅行过成生活。",
+      "closing": "旅居是换活法不是度假；牌面帮你把『真想留』和『只是躲一阵』分开。",
+      "spreadHint": "three-choice"
+    },
+    {
+      "id": "sr-city",
+      "parent": "stay-return",
+      "nameZh": "留大城市",
+      "keywords": ["留大城市", "留在北上广", "打拼", "都市", "留下"],
+      "intro": "你留在大城市，累是真的，那种『还能更好』的劲也是真的。",
+      "closing": "留是选择不是硬撑；牌面帮你把『真想要』和『不敢认输』分开。",
+      "spreadHint": "three-choice"
+    },
+    {
+      "id": "sr-home",
+      "parent": "stay-return",
+      "nameZh": "回老家",
+      "keywords": ["回老家", "回乡", "逃离大城市", "小城", "父母在的地方"],
+      "intro": "你想回老家，安稳在招手，可又怕回去就再也出不来。",
+      "closing": "回乡是换一种踏实；牌面帮你把『真想要』和『只是被大城市累了』分开。",
+      "spreadHint": "three-choice"
+    },
+    {
+      "id": "in-block",
+      "parent": "inspiration",
+      "nameZh": "卡住了",
+      "keywords": ["卡住", "没灵感", "写不出", "堵", "空白"],
+      "intro": "你对着空白的页面，脑子也跟着空白，越逼越出不来。",
+      "closing": "卡住常是方向没清；牌面帮你把『该歇』和『该换角度』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "in-find",
+      "parent": "inspiration",
+      "nameZh": "找方向",
+      "keywords": ["找方向", "没想法", "不知道写什么", "选题", "定位"],
+      "intro": "你想做点什么，却不知道从哪下手，方向像雾里的灯。",
+      "closing": "方向是动出来不是等来的；牌面帮你把『真想做』和『只是焦虑跟风』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "pb-whether",
+      "parent": "publish",
+      "nameZh": "该不该发",
+      "keywords": ["该不该发", "发不发", "犹豫发布", "公开", "上线"],
+      "intro": "作品做完了，你却迟迟按不下发送，怕这一发就收不回。",
+      "closing": "发出去才是作品藏着只是草稿；牌面帮你把『怕被评』和『该亮相了』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "pb-fear",
+      "parent": "publish",
+      "nameZh": "怕被评价",
+      "keywords": ["怕评价", "怕被喷", "怕没人看", "在意评论", "社恐发布"],
+      "intro": "你最怕的不是作品不好，是发出去后那一片可能的沉默或挑剔。",
+      "closing": "评价是观众多你控制不了；牌面帮你把『该听的反馈』和『该屏蔽的噪音』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "ex-whether",
+      "parent": "express",
+      "nameZh": "该不该说",
+      "keywords": ["该不该说", "要不要开口", "说不出口", "憋着", "犹豫表达"],
+      "intro": "有句话堵在喉咙口，说或不说都难受，你怕一说就回不去。",
+      "closing": "压回去的话不会消失；牌面帮你把『该说的』和『怕说的』分开。",
+      "spreadHint": "three-situation"
+    },
+    {
+      "id": "ex-how",
+      "parent": "express",
+      "nameZh": "怎么说",
+      "keywords": ["怎么说", "开口方式", "表达技巧", "沟通", "措辞"],
+      "intro": "你想说，但怕说错了把关系弄僵，话到嘴边反复掂量。",
+      "closing": "怎么说比说不说更见功夫；牌面帮你把『真心』和『让人听得进的方式』分开。",
+      "spreadHint": "three-situation"
+    }
+  ]
+}
