@@ -1,5 +1,7 @@
 # Tarot Card · 塔罗占卜
 
+[English](README.en.md) | 简体中文
+
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Platform](https://img.shields.io/badge/platform-Web%20%7C%20Android-blue.svg)
 ![Release](https://img.shields.io/badge/release-v1.0%20APK-brightgreen.svg)
